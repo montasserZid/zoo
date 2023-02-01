@@ -1,0 +1,92 @@
+Jerome Fosse
+2295853
+Groupe 21648
+
+/* ----------------------------------------------------------- */
+/* ----------------------  ARGUMENTAIRE ---------------------- */
+/* ----------------------------------------------------------- */
+
+
+/**** CHOIX DU PROTOTYPE ZOO-2 ****/
+
+- J'ai choisi ce prototype car le code était clair et maniable. 
+
+- Le personna est basé sur une clientèle familiale ce qui m'a permis de tenter un site coloré.
+
+/**** AJOUT DE SECTION PARRAINEZ UN COUGAR ****/
+
+- J'ai ajouté cette section car l'environnement et le bien-être des animaux est important à l'heure d'aujourd'hui. 
+Je pense que c'est important de le mettre en avant, que les animaux peuvent être réhabilité.
+
+- Cette section est aussi la continuité de la section contribution, les deux sont faites pour aider et participer. 
+
+
+/**** GENERAL ****/
+
+- L'utilisation de la méthode BEM m'a fait changer les class
+
+- J'ai retiré tous les <br> dans les textes
+
+- J'ai ajouté une page de style spécial pour le responsive
+
+- J'ai retiré les commentaires redondant dans la page css et mis des espacements pour clarifier le code
+
+
+/**** EN-TETE ****/
+
+- J'ai retiré le bouton "Achetez vos billets" du menu pour avoir plus d'espacement dans le menu
+
+- Mise en valeur du bouton "Achetez vos billets" en le modifiant par une image de ticket fixed. 
+
+- Ajout d'une flèche pour indiquer le sous menu
+
+- Pour le responsive et une meilleure clarté des liens, à 1200px je retire les mots "forestier" et "sournoise" qu'on peut retrouver dans la partie texte du header et plusieurs fois sur le site.  
+
+- Inversement du titre et du paragraphe : Je trouve le titre trop long et je trouve le mot sournois pas vendeur 
+
+- Pour une meilleure visibilité de l'image j'ai mis le texte a 50% côté gauche
+
+
+/**** MAIN ****/
+
+/**** INFORMATION ****/
+
+- remplacement des traits par des gaps et un espacement entre les sections.
+
+- Ajout d'un background derrière le texte pour le faire ressortir
+
+- Ajout d'une image sur le thème de recherche pour donner envie d'aller voir 
+
+
+/**** CONTRIBUTION ****/
+
+- Déplacement de la section "membre" et "contribution" après les sections "présentation" et "emplacement" pour mettre plus en valeur et en découvrir davantage sur le zoo et les animaux.
+
+- Effet sur les liens et ajout d'une flèche pour donner envie d'y aller
+
+- J'ai retiré les couleurs d'arrière-plan dans les sections "contribution", "présentation" et "emplacement" pour créer une forme de section importante du site
+
+
+/**** SECTION ARTICLE ****/
+
+- Ajout du titre de la section qui était dans la scénarisation
+
+- J'ai mis le texte des articles en bas des photos pour faire ressortir le titre
+
+- J'ai centré le texte car c'était le seul endroit ou le texte était aligné à gauche
+
+- J'ai ajouté un arrière-plan coloré pour séparer avec le reste du contenu 
+
+
+/**** SECTION PIED DE PAGE ****/
+
+- J'ai collé la partie séparation au footer et ajouté une image de forêt.
+
+- J'ai ajouté le logo du zoo pour un rappel
+
+- J'ai ajouté l'adresse du zoo, l'infolettre et l'infolettre pour compléter le pied de page qui n'avait que le menu secondaire 
+
+- J'ai ajouté un arrière-plan coloré pour faire une continuité avec l'image de séparation
+
+- J'ai personnalisé les icones réseaux sociaux pour qu'il soit dans le thème du site
+

@@ -1,0 +1,9 @@
+Ordre:
+
+J'ai placé les différentes sections selon l'ordre la plus logique pour moi, soit: la navigation dans le header avec le "slogan" du zoo, puis une sous-navigation spécifique pour visiter le zoo (prix, horaire, carte, etc). Après, nous avons la sections promotion de membership pour attirer les gens à s'abonner au zoo, puis nous avons les 3 sous-sections des attraits du zoo, soit: l'importance de la préservation comme but du zoo, son aspect unique et sa "proximité". Puis, nous avons les articles pour les gens qui sont plus curieux. Finalement, nous avons le bas de page avec un sous-menu pour une clientèle plus spécifique, moins grand public. 
+
+La plus grande section, étant la plus importante, est le header avec 480px. La navigation fait 1/4 de cette section, pour ainsi avoir un bon équilibre. La sous-navigation est de 240px, soit la moitié du header. Puis, nous avons une récurrence de 400px pour les sections suivantes. Pour des raisons de rythme et d'équilibre les cinq sections suivantes sont identiques et délimitées par une couleur de fond en alternance. Les sections du milieu suivent le même patron, soit une division en 2 sous-section avec une image de 500px par 300px dans la première sous-section et un texte centré dans l'autre. En gardant toujours la même hauteur, on garde un rythme clair et il est facile de savoir lorsque l'on change de section.
+
+Tous les espacements, margins, padding et autres permettent aux différent éléments de bien respirer et d'être distingués, tout en étant clairement regroupés avec les éléments semblables.
+
+La structure du site est relativement simple, de haut en bas, permettant de mettre l'accent sur son contenu et images futures et ainsi aider à attirer des gens sur le site et les aider à organiser leur sortie au zoo. 

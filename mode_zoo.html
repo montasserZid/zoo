@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- META INFORMATION -->
+        <meta name="description" content="TP2 : Maquette adaptée à partir d'un prototype">
+        <meta name="keywords" content="TP2, ZOO, HTML/CSS">
+        <meta name="author" content="Jerome Fosse (2295853)">
+        <!-- STYLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@700&family=Tillana:wght@600&family=Trykker&display=swap" rel="stylesheet">
+        <!-- new -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="assets/styles/card.css">
+        <link rel="stylesheet" href="assets/styles/main.css">
+        <link rel="stylesheet" href="assets/styles/responsive.css">
+    
+        <!-- SCRIPT -->
+        <script src="assets/script/script.js"></script>
+    
+        <title>Le monde du Zoo</title>
+    </head>
+<body>
+    <header class="en-tete flex-colonne">
+        <!-- bouton voir prototype -->
+        <a href="zoo-2/index.html" target="_blank" class="bouton-prototype">Voir Prototype</a>
+        <!-- header -->
+        <img class="en-tete__image" src="assets/images/activities.jpg" alt="photo d'ours pour arrière plan">
+        <a href="#"><img class="bouton-ticket" src="assets/svg-png/ticket.png" alt="image de ticket pour un bouton"></a> 
+        <div class="en-tete__menu flex">
+            <div class="logo-petit">
+                <a href="#"><img src="assets/svg-png/logo.png" alt="Logo du zoo forestier"></a>
+            </div>
+            <nav class="en-tete__menu__navigateur flex" role="menubar" id="menuBurger">
+                <a role="menuitem" href="#" class="en-tete__menu__navigateur__lien trait-orange">Informations</a>
+                <a role="menuitem" href="#" class="en-tete__menu__navigateur__lien trait-vert">Activités et évènements</a>
+                <a role="menuitem" href="#" class="en-tete__menu__navigateur__lien trait-rouge">Le monde du Zoo <span class="effacement-responsive">forestier</span></a>
+                <div class="menu-deroulant">
+                    <a href="#" class="en-tete__menu__navigateur__lien">Préserver la faune <span class="effacement-responsive">sournoise</span><img class="icone-flecheBas" src="assets/svg-png/icone-fleche-orange.svg" alt="icone fleche vers le bas"></a> 
+                    <div class="menu-deroulant__contenu">
+                        <a role="menuitem" href="#" class="menu-deroulant__contenu__lien">Parrainez un animal</a>
+                        <a role="menuitem" href="#" class="menu-deroulant__contenu__lien">Notre programme éducatif</a>
+                        <a role="menuitem" href="#" class="menu-deroulant__contenu__lien">Nos initiatives de libération</a>
+                    </div>
+                </div>
+                <div class="bouton-menuBurger-fermeture">
+                    <span class="ferme" id="iconeCroix">&times;</span>
+                </div>
+            </nav>
+            <img class="icone-burger" id="iconeBurger" src="assets/svg-png/icone-menuBurger.svg" alt="icone trait pour le menu burger">
+
+        </div>
+        <div class="en-tete__texte-bouton flex-colonne">
+            <h1>Venez vous promener librement au milieu des lynx, carcajous et ours bruns. </h1>
+            <strong>Le Zoo de Val-Jalbert met en vedette les animaux québécois les plus sournois et ce, dans un décor forestier enchanteur.</strong>
+            <a href="#" class="bouton bouton-orange"> Voir nos activités familiales</a>
+        </div>
+    </header>
+    <main>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+        <section class="hero-section">
+          <div class="card-grid">
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/Macaque_280x280.jpg)"></div>
+              <div class="card__content">
+                <p class="card__category">Catégorie</p>
+                <h3 class="card__heading">Japanese macaque</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/Les-animaux/Suricate_280x280_LOW2.jpg)"></div>
+              <div class="card__content">
+                <p class="card__category">Catégorie</p>
+                <h3 class="card__heading">Suricate</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/Les-animaux/Wallaby_280x280_LOW2.jpg)"></div>
+              <div class="card__content">
+                <p class="card__category">Catégorie</p>
+                <h3 class="card__heading">Wallaby de Bennett</h3>
+              </div>
+            </li>
+            <a class="card" href="#">
+              <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/Tigre_280x280.jpg)"></div>
+              <div class="card__content">
+                <p class="card__category">Catégorie</p>
+                <h3 class="card__heading">Tigre de l’Amour</h3>
+              </div>
+            </a>
+            <a class="card" href="#">
+                <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/_300xAUTO_fit_center-center/L%C3%A9opard-des-neiges_M4_600x600_Zoo-de-Granby.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Catégorie</p>
+                  <h3 class="card__heading">Léopard des neiges</h3>
+                </div>
+              </a>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/_300xAUTO_fit_center-center/L%C3%A9opard-de-lamour_600x600.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Catégorie</p>
+                  <h3 class="card__heading">Léopard de l’Amour</h3>
+                </div>
+              </a>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/_300xAUTO_fit_center-center/Panda_280x280.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Catégorie</p>
+                  <h3 class="card__heading">Petit panda</h3>
+                </div>
+              </a>
+              <a class="card" href="#">
+                <div class="card__background" style="background-image: url(https://zoodegranby.com/content/images/Les-animaux/_300xAUTO_fit_center-center/lamas_280X280_LOW2.jpg)"></div>
+                <div class="card__content">
+                  <p class="card__category">Catégorie</p>
+                  <h3 class="card__heading">Lama Amérique du Sud</h3>
+                </div>
+              </a>
+          <div>
+        </section>
+    </main>
+    <footer class="pied-de-page flex-colonne">
+        <img class="logo-grand" src="assets/svg-png/logo-blanc.png" alt="Mon logo">
+        <div class="pied-de-page__contenu flex">
+            <!-- footer contact -->
+            <div class="pied-de-page__contenu__contact flex-colonne">
+                <div class="pied-de-page__contenu__contact__adresse flex-colonne">   
+                    <h2 class="pied-de-page__contenu__titre">Nous contacter !</h2>
+                    <ul>
+                        <li><img class="icone" src="assets/svg-png/tel-blanc.png" alt="icone téléphone"> + 514 888 888</li>
+                        <li><img class="icone" src="assets/svg-png/localisation-blanc.png" alt="icone localisation"> 2230, boulevard du jardin <br> G8K 0H1, Val-Jalbert, Québec</li>
+                        <li><img class="icone" src="assets/svg-png/mail-blanc.png" alt="icone courriel"> info@zoo-val-jalbert.org</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- footer menu-->
+            <nav role="menubar" class="pied-de-page__menu flex-colonne">
+                <h2 class="pied-de-page__contenu__titre">En savoir plus !</h2>
+                <a role="menuitem" href="#"><h3 class="pied-de-page__contenu__titre__lien">Services aux écoles</h3></a>
+                <div>
+                    <a role="menuitem" href="#"><h3 class="pied-de-page__contenu__titre__lien">Faire un don</h3></a>
+                    <ul>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Le monde du Zoo forestier</a></li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Préserver la faune sournoise</a></li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Achetez vos billets</a></li>
+                    </ul> 
+                </div> 
+                <div>
+                    <a role="menuitem" href="#"><h3 class="pied-de-page__contenu__titre__lien">À propos</h3></a> 
+                    <ul>  
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Équipes</a></li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Partenaires</a> </li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Carrière</a></li>
+                    </ul>
+                </div>
+            </nav>              
+            <!-- footer infolettre -->
+            <div class="pied-de-page__contenu__infolettre flex-colonne">
+                <h2 class="pied-de-page__contenu__titre">Inscrivez vous !</h2>
+                <form class="formulaire flex-colonne" action="#" method="get">
+                    <label for="labelinfo" class="formulaire__label">Recevez nos promotions, nouveautés, informations par courriel grâce à notre infolettre</label>
+                        <input type="email" id="labelinfo" class="formulaire__input" placeholder="Entrez votre courriel" name="courriel">
+                    <a href="#" class="bouton bouton-orange"> Envoyer</a>
+                </form>    
+            </div>
+            <!-- footer media -->
+            <div class="pied-de-page__media flex-colonne">
+                <h2 class="pied-de-page__contenu__titre">Suivez nous !</h2>
+                <div class="media-group flex">
+                    <a href="http://www.facebook.com/" target="_blank" class="media-groupe__lien"><img src="assets/svg-png/icone-facebook-blanc.svg" alt="icone de Facebook"></a>
+                    <a href="http://www.instagram.com/" target="_blank" class="media-groupe__lien"><img src="assets/svg-png/icone-instagram-blanc.svg" alt="icone d'Instagram"></a>
+                    <a href="http://www.twitter.com/" target="_blank" class="media-groupe__lien"><img src="assets/svg-png/icone-twitter-blanc.svg" alt="icone de Twitter"></a>
+                </div>
+            </div>      
+        </div>
+        <small>© 2022 Tous droits réservés - Zoo Forestier Val-Jalbert - Conception Web : Jerome Fosse</small>
+    </footer>
+</body>
+</html>

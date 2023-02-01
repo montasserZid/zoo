@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- META INFORMATION -->
+    <meta name="description" content="TP2 : Maquette adaptée à partir d'un prototype">
+    <meta name="keywords" content="TP2, ZOO, HTML/CSS">
+    <meta name="author" content="Jerome Fosse (2295853)">
+    <!-- STYLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@700&family=Tillana:wght@600&family=Trykker&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+
+    <!-- SCRIPT -->
+    <script src="assets/script/script.js"></script>
+
+    <title>TP2 - Zoo forestier de Val-Jalbert</title>
+</head>
+<body>
+    <header class="en-tete flex-colonne">
+        <!-- bouton voir prototype -->
+        <a href="zoo-2/index.html" target="_blank" class="bouton-prototype">Voir Prototype</a>
+        <!-- header -->
+        <img class="en-tete__image" src="assets/images/ours-fond.jpg" alt="photo d'ours pour arrière plan">
+        <a href="#"><img class="bouton-ticket" src="assets/svg-png/ticket.png" alt="image de ticket pour un bouton"></a> 
+        <div class="en-tete__menu flex">
+            <div class="logo-petit">
+                <a href="#"><img src="assets/svg-png/logo.png" alt="Logo du zoo forestier"></a>
+            </div>
+            <nav class="en-tete__menu__navigateur flex" role="menubar" id="menuBurger">
+                <a role="menuitem" href="#" class="en-tete__menu__navigateur__lien trait-orange">Informations</a>
+                <a role="menuitem" href="#" class="en-tete__menu__navigateur__lien trait-vert">Activités et évènements</a>
+                <a role="menuitem" href="#" class="en-tete__menu__navigateur__lien trait-rouge">Le monde du Zoo <span class="effacement-responsive">forestier</span></a>
+                <div class="menu-deroulant">
+                    <a href="#" class="en-tete__menu__navigateur__lien">Préserver la faune <span class="effacement-responsive">sournoise</span><img class="icone-flecheBas" src="assets/svg-png/icone-fleche-orange.svg" alt="icone fleche vers le bas"></a> 
+                    <div class="menu-deroulant__contenu">
+                        <a role="menuitem" href="#" class="menu-deroulant__contenu__lien">Parrainez un animal</a>
+                        <a role="menuitem" href="#" class="menu-deroulant__contenu__lien">Notre programme éducatif</a>
+                        <a role="menuitem" href="#" class="menu-deroulant__contenu__lien">Nos initiatives de libération</a>
+                    </div>
+                </div>
+                <div class="bouton-menuBurger-fermeture">
+                    <span class="ferme" id="iconeCroix">&times;</span>
+                </div>
+            </nav>
+            <img class="icone-burger" id="iconeBurger" src="assets/svg-png/icone-menuBurger.svg" alt="icone trait pour le menu burger">
+
+        </div>
+        <div class="en-tete__texte-bouton flex-colonne">
+            <h1>Venez vous promener librement au milieu des lynx, carcajous et ours bruns. </h1>
+            <strong>Le Zoo de Val-Jalbert met en vedette les animaux québécois les plus sournois et ce, dans un décor forestier enchanteur.</strong>
+            <a href="#" class="bouton bouton-orange"> Voir nos activités familiales</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SECTION INFORMATION -->
+        <section class="information__grille flex">
+            <a href="#" class="information__carte flex">
+                <h2 class="information__carte__texte">Horaire et tarifs</h2>
+                <img class="information__carte__image" src="assets/images/panneau-ouvert.jpg" alt="photo panneau ouverture">
+            </a>
+            <a href="#" class="information__carte flex">
+                <h2 class="information__carte__texte">Organisez votre visite</h2>
+                <img class="information__carte__image" src="assets/images/loup3.jpg" alt="Photo d'une meute de loup">
+            </a>
+            <a href="#" class="information__carte flex">
+                <h2 class="information__carte__texte">Rencontrez nos animaux</h2>
+                <img class="information__carte__image" src="assets/images/raton.jpg" alt="Photo d'un raton laveur">
+            </a>
+            <a href="#" class="information__carte flex">
+                <h2 class="information__carte__texte">Carte du zoo</h2>
+                <img class="information__carte__image" src="assets/images/carte-pirate.jpg" alt="Carte pirate">
+            </a>
+        </section>
+        
+        <!-- SECTION PRESENTATION -->
+        <section class="carte-texte-image flex">
+            <div class="carte-texte-image__image">
+                <img src="assets/images/montage-lynxCarcajoux.jpg" alt="image animaux lynx et carcajous">
+            </div>
+            <div class="carte-texte-image__texte">
+                <h2>Le seul Zoo en forêt du Québec. Venez voir nos lynx et carcajous en liberté !</h2>
+            </div>
+        </section>
+
+        <!-- SECTION EMPLACEMENT -->
+        <section class="carte-texte-image flex">
+            <div class="carte-texte-image__texte flex-colonne">
+                <h2>À seulement 6 heures de Montréal et 30 minutes de Chicoutimi !</h2>
+            </div>
+            <div class="carte-texte-image__image">
+                <img src="assets/svg-png/plan-vecto.png" alt="plan vectoriel entre 2 points">
+            </div>
+        </section>
+
+        <!-- SECTION MEMBRE -->
+        <section class="carte-texte-bouton fond-orange flex-colonne">
+            <h2>Devenez membre et économisez!</h2>
+            <strong>Obtenez un accès privilégié et illimité pour 20 $ par année.</strong>
+            <a href="#" class="bouton bouton-vert"> Devenez membre !</a> 
+        </section>
+
+        <!-- SECTION CONTRIBUTION -->
+        <section class="carte-texte-image flex">
+            <div class="carte-texte-image__image">
+                <img src="assets/images/montage-oursCaribou.jpg" alt="image animaux ours et caribou">
+            </div>
+            <div class="carte-texte-image__texte flex-colonne">
+                <h2>Aidez-nous à préserver la faune québécoise et sournoise !</h2>
+                <div class="carte-texte-image__texte__div-lien flex-colonne">
+                    <a href="#" class="carte-texte-image__texte__lien"><img class="icone-fleche" src="assets/svg-png/icone-fleche-indienne.svg" alt="flèche">Contribuez à l’essor de l’ours noir</a>
+                    <a href="#" class="carte-texte-image__texte__lien"><img class="icone-fleche" src="assets/svg-png/icone-fleche-indienne.svg" alt="flèche">Participez à notre programme de survie solitaire</a>
+                    <a href="#" class="carte-texte-image__texte__lien"><img class="icone-fleche" src="assets/svg-png/icone-fleche-indienne.svg" alt="flèche">Découvrez nos initiatives de protection du caribou</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="carte-texte-bouton fond-gris flex-colonne">
+            <h2>Parrainez un cougar</h2>
+            <strong>Chaque parrainage permet à un cougar de retrouver sa liberté dans nos forêts québécoises.</strong>
+            <a href="#" class="bouton bouton-vert"> Voir nos modèles de parrainage</a> 
+        </section>
+ 
+        <!-- SECTION ARTICLE -->
+        <section class="nouvelle flex-colonne">
+            <h2>Apprenez-en plus sur le zoo et Val-Jabert</h2>
+            <div class="grille-article flex">
+                <article class="article flex-colonne">
+                    <h3 class="article__titre">Article vedette</h3><hr>
+                    <a href="#"><img class="article__image" src="assets/images/village-valJalbert.jpg" alt="photo d'un village historique"></a>
+                    <p>Un village plein d'histoires !</p>
+                </article>
+
+                <article class="article flex-colonne">
+                    <h3 class="article__titre">Animal vedette</h3><hr>
+                    <a href="#"><img class="article__image" src="assets/images/cougar.jpg" alt="photo d'un cougar"></a>
+                    <p>Le cougar, typiquement québécois !</p>
+                </article>
+
+                <article class="article flex-colonne">
+                    <h3 class="article__titre">Promotion</h3><hr>
+                    <a href="#"><img class="article__image" src="assets/images/ecusson-valJabert.jpg" alt="écusson promotionnel Val-Jabert"></a>
+                    <p>Devenez membre et recevez un écusson de votre choix !</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SEPARATION MAIN ET FOOTER -->
+        <div class="image-separation flex">
+            <img src="assets/svg-png/foret-fond.png" alt="image de séparation foret">
+            <img src="assets/svg-png/foret-fond.png" alt="image de séparation foret">
+            <img src="assets/svg-png/foret-fond.png" alt="image de séparation foret">
+            <img src="assets/svg-png/foret-fond.png" alt="image de séparation foret">
+            <img src="assets/svg-png/foret-fond.png" alt="image de séparation foret">
+        </div> 
+        
+    </main>
+
+    <!-- SECTION FOOTER -->
+    <footer class="pied-de-page flex-colonne">
+        <img class="logo-grand" src="assets/svg-png/logo-blanc.png" alt="Mon logo">
+        <div class="pied-de-page__contenu flex">
+            <!-- footer contact -->
+            <div class="pied-de-page__contenu__contact flex-colonne">
+                <div class="pied-de-page__contenu__contact__adresse flex-colonne">   
+                    <h2 class="pied-de-page__contenu__titre">Nous contacter !</h2>
+                    <ul>
+                        <li><img class="icone" src="assets/svg-png/tel-blanc.png" alt="icone téléphone"> + 514 888 888</li>
+                        <li><img class="icone" src="assets/svg-png/localisation-blanc.png" alt="icone localisation"> 2230, boulevard du jardin <br> G8K 0H1, Val-Jalbert, Québec</li>
+                        <li><img class="icone" src="assets/svg-png/mail-blanc.png" alt="icone courriel"> info@zoo-val-jalbert.org</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- footer menu-->
+            <nav role="menubar" class="pied-de-page__menu flex-colonne">
+                <h2 class="pied-de-page__contenu__titre">En savoir plus !</h2>
+                <a role="menuitem" href="#"><h3 class="pied-de-page__contenu__titre__lien">Services aux écoles</h3></a>
+                <div>
+                    <a role="menuitem" href="#"><h3 class="pied-de-page__contenu__titre__lien">Faire un don</h3></a>
+                    <ul>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Le monde du Zoo forestier</a></li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Préserver la faune sournoise</a></li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Achetez vos billets</a></li>
+                    </ul> 
+                </div> 
+                <div>
+                    <a role="menuitem" href="#"><h3 class="pied-de-page__contenu__titre__lien">À propos</h3></a> 
+                    <ul>  
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Équipes</a></li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Partenaires</a> </li>
+                        <li><a role="menuitem" href="#" class="pied-de-page__contenu__lien">Carrière</a></li>
+                    </ul>
+                </div>
+            </nav>              
+            <!-- footer infolettre -->
+            <div class="pied-de-page__contenu__infolettre flex-colonne">
+                <h2 class="pied-de-page__contenu__titre">Inscrivez vous !</h2>
+                <form class="formulaire flex-colonne" action="#" method="get">
+                    <label for="labelinfo" class="formulaire__label">Recevez nos promotions, nouveautés, informations par courriel grâce à notre infolettre</label>
+                        <input type="email" id="labelinfo" class="formulaire__input" placeholder="Entrez votre courriel" name="courriel">
+                    <a href="#" class="bouton bouton-orange"> Envoyer</a>
+                </form>    
+            </div>
+            <!-- footer media -->
+            <div class="pied-de-page__media flex-colonne">
+                <h2 class="pied-de-page__contenu__titre">Suivez nous !</h2>
+                <div class="media-group flex">
+                    <a href="http://www.facebook.com/" target="_blank" class="media-groupe__lien"><img src="assets/svg-png/icone-facebook-blanc.svg" alt="icone de Facebook"></a>
+                    <a href="http://www.instagram.com/" target="_blank" class="media-groupe__lien"><img src="assets/svg-png/icone-instagram-blanc.svg" alt="icone d'Instagram"></a>
+                    <a href="http://www.twitter.com/" target="_blank" class="media-groupe__lien"><img src="assets/svg-png/icone-twitter-blanc.svg" alt="icone de Twitter"></a>
+                </div>
+            </div>      
+        </div>
+        <small>© 2022 Tous droits réservés - Zoo Forestier Val-Jalbert - Conception Web : Jerome Fosse</small>
+    </footer>
+</body>
+</html>

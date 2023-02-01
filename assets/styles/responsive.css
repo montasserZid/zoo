@@ -1,0 +1,222 @@
+
+/* ------------------------------------------------------- */
+/* ---------------------- RESPONSIVE---------------------- */
+/* ------------------------------------------------------- */
+
+/* ****************** */
+/* max-width : 1220px */
+/* ****************** */
+
+@media screen and (max-width : 1220px) {
+
+    h1,h2 {
+        font-size: var(--taille-tresGrande);
+    }
+
+    h3, h4, p, a,
+    .pied-de-page__contenu__contact,
+    .formulaire {
+        font-size: var(--taille-petite);
+    }
+
+    .en-tete__menu__navigateur {
+        gap: var(--espacement-moyen);
+        margin-right: var(--espacement-tresPetit);
+    }
+
+    .deroulant__contenu__lien,
+    .information__carte__texte,
+    .pied-de-page__contenu__titre__lien {
+        font-size: var(--taille-courante);
+    }
+
+    .effacement-responsive {
+        display: none;
+    }
+
+    .pied-de-page__contenu__titre {
+        font-size: var(--taille-grande);
+    }
+
+    .logo-grand {
+        width: 100px;
+    }
+}
+
+/* ****************** */
+/* max-width : 994 px */
+/* ****************** */
+
+@media screen and (max-width : 994px) {
+    
+    .icone {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .bouton-ticket {
+        translate: -110% 250%;
+    }
+
+    section {
+        margin-bottom: var(--espacement-grand);
+    }
+
+    .en-tete__menu__navigateur {
+        gap: var(--espacement-petit);
+    }
+
+    .information__grille {
+        margin-top: var(--espacement-moyen);
+    }
+
+    .en-tete {
+        min-height: 600px;
+    }
+
+    .en-tete__menu__navigateur__lien {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .carte-texte-bouton {
+        min-height: 350px;
+
+        gap: var(--espacement-petit);
+    }
+
+    .information__carte__texte {
+        padding : var(--espacement-moyen) 35px;
+    }
+
+    .information__grille,
+    .carte-texte-image {
+        margin: var(--espacement-moyen);
+    }
+}
+
+/* ****************** */
+/* max-width : 796 px */
+/* ****************** */
+
+@media screen and (max-width : 796px) {
+
+    h1,h2 {
+        font-size: var(--taille-grande);
+    }
+
+    strong {
+        font-size: var(--taille-courante);
+    }
+
+    section {
+        margin-bottom: 0;
+    }
+    
+    .bouton {
+        margin-top: var(--espacement-petit);
+    }
+
+    .media-groupe__lien {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .bouton-ticket {
+        width: 70px;
+        height: 65px;
+
+        translate: -110% 250%;
+    }
+
+    .bouton-ticket:hover {
+        width: 73px;
+        height: 68px;
+    }
+    
+    .en-tete {
+        min-height: 500px;
+    }
+
+    .en-tete__menu__navigateur {
+        margin-right: 100px;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .en-tete__image {
+        margin-top: 110px;
+    }
+
+    .en-tete__menu__navigateur__lien,
+    .deroulant__contenu__lien {
+        font-size: var(--taille-courante);
+        width: 100%;
+    }
+
+    .menu-deroulant__contenu__lien {
+        padding: var(--espacement-tresPetit);
+    }
+
+    .en-tete__menu__navigateur,
+    .en-tete__texte-bouton {
+        flex-flow: column wrap;
+    }
+
+    .en-tete__texte-bouton {
+        width: 100%;
+        margin: 220px auto 0 auto;
+        border-radius: 0;
+        padding: var(--espacement-petit);
+        gap: var(--espacement-tresPetit);
+    }
+
+    .information__grille {
+        gap: 0px;
+    }
+
+    .information__carte__texte {
+        font-size: var(--taille-courante);
+    }
+
+    .carte-texte-bouton,
+    .carte-texte-image {  
+        min-height: 250px;
+
+        gap: var(--espacement-petit);
+    }
+
+    .article{
+        gap: var(--espacement-petit);
+    }
+
+    .information__grille,
+    .carte-texte-image,
+    .grille-article,
+    .pied-de-page__contenu {
+        flex-direction: column;
+    }
+
+    .carte-texte-image__texte {
+        order: -1;
+    }
+
+    .nouvelle {
+        align-items: center;
+        margin: var(--espacement-grand) 0px;
+    }
+
+    .article {
+        width: 300px;
+        min-height: 250px;
+    }
+    
+    .pied-de-page__contenu__contact__adresse,
+    .pied-de-page__media{
+        align-items: center;
+    }
+
+    .pied-de-page__contenu__contact{
+        align-items: center;
+    }
+}
